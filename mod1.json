@@ -1,0 +1,24 @@
+"name": "My Custom Ring Mod",
+  "author": "elkonut",
+  "version": "1.0.0",
+  "description": "Adds a powerful custom ring.",
+  "dice": [],
+  "rings": [
+    {
+      "ide": "multiplier_matrix_ring",
+      "rarity": 3,
+      "prio": 5,
+      "func": "mid",
+      "sprite_small": "sprites/matrix_ring_small.png",
+      "sprite_big": "sprites/matrix_ring_big.png",
+      "kw": ["multiplier", "faces"],
+      "tag": ["score_modifier"],
+      "effect": {
+        "type": "mult_all",
+        "value": "total_face_value"
+      },
+      "title": "The Multiplier Matrix",
+      "description": "Multiplies everything by the total value of all visible rolled dice faces."
+    }
+  ]
+}
